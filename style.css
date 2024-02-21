@@ -1,0 +1,139 @@
+.navbar{
+    display: flex;
+    justify-content: end;
+    background-color: black;
+    
+}
+.box{
+    padding: 20px;
+}
+.box a{
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Img/IMG_0400.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.hero h3{
+    font-size: 50px;
+    color: white;
+}
+.hero button{
+    padding: 15px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    color: white; 
+}
+.hero button:hover{
+  background-color: aliceblue;
+  color: black;
+  transition-duration: 0.5s;
+}
+main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Img/403626310_702711731823459_909325049145907209_n.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-size: cover;
+}
+.about1{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+
+  }
+  div.gallery:hover {
+    border: 1px solid black;
+    transition-duration: 0.5s;
+  }
+  
+  div.gallery img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width:  450px;
+    height: 350px;
+    object-fit: cover;
+  }
+  
+  div.desc {
+    padding: 20px;
+    text-align: center;
+  }
+  h2{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    color: aliceblue;
+  }
+  .gellery{
+    margin-bottom: 100px;
+  }
+  .cer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Img/IMG_5101.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    padding: 15px;
+  }
+  .about1 div{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    padding: 25px;
+    color: aliceblue;
+  }
+  .about h2{
+    color: aliceblue;
+    padding: 30px;
+    font-size: 50px;
+  }
+  .con{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Img/IMG_5208.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 15px;
+  }
+.con h3{
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  color: aliceblue;
+}
+.con1{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  color: aliceblue;
+}
+.con1 p{
+  border: solid;
+  padding: 25px;
+  color: aliceblue;
+}
